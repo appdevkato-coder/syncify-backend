@@ -1,14 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function POST() {
-  const targetUrl = process.env.CLICKUP_SYNC_URL;
-
-  if (!targetUrl) {
-    return NextResponse.json(
-      { success: false, message: 'Sync URL not configured' },
-      { status: 500 }
-    );
-  }
+  const targetUrl = 'https://xl62bf1am0.execute-api.ap-south-1.amazonaws.com/dev/clickup/sync/manual';
 
   try {
     const response = await fetch(targetUrl, {
