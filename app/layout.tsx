@@ -14,8 +14,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Syncify Terminal",
-  description: "Advanced Data Sync Protocol",
+  title: "Syncify",
+  description: "Timetracker sync",
 };
 
 export default function RootLayout({
