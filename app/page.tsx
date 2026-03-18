@@ -88,13 +88,7 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen w-full flex items-center justify-center p-6 bg-background font-mono selection:bg-accent/30 overflow-hidden">
-      {/* HUD Frame Border */}
-      <div className="hud-frame">
-        <div className="hud-corner hud-corner-tl" />
-        <div className="hud-corner hud-corner-tr" />
-        <div className="hud-corner hud-corner-bl" />
-        <div className="hud-corner hud-corner-br" />
-      </div>
+
 
       {/* Background Decor */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
